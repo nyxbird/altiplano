@@ -1,0 +1,33 @@
+html {
+
+}
+
+body {
+    margin: 10vh 20vw;
+    background-color: #ffe599;
+    display:grid;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "t t";
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+.gridbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dice {
+    width: 20vh;
+    height:20vh;
+    border-radius: 5vh;
+    /* height: 100%;
+    width: 100%; */
+}
+p {
+    font-size: 10vh;
+    font-family: sans-serif;
+}
