@@ -26,9 +26,9 @@ function reroll() {
     console.log("!!");
     let r = Math.floor(Math.random()*5);
     red.src = reds[r]==0?"":`imgs/red/${reds[r]}.png`;
-    r = Math.floor(Math.random()*5);
+    r = Math.floor(Math.random()*6);
     gray.src = grays[r]==0?"":`imgs/gray/${grays[r]}.png`;
-    r = Math.floor(Math.random()*5);
+    r = Math.floor(Math.random()*6);
     blue.src = blues[r]==0?"":`imgs/blue/${blues[r]}.png`;
     r = Math.floor(Math.random()*5);
     green.src = greens[r]==0?"":`imgs/green/${greens[r]}.png`;
